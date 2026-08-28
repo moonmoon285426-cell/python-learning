@@ -1,0 +1,90 @@
+  what is the conditional statement
+  when we have to use if
+                                    IF STATEMENT 
+age=int(input("enter the age:"))
+if age>=18:
+    print("you are eligible to vote")
+    print("you can drive a car")
+else:
+    print("you are not eligible to vote")
+    print("you cannot drive a car")
+
+trafficlight=input("entert the colour of the traffic lights:")
+if trafficlight=="green":
+    print("you can go")
+elif trafficlight=="yellow":
+    print("you need to wait:")
+elif trafficlight=="red":
+    print("you have to stop")
+else:
+    print("colour is not in the traffic light indications")
+            more examples of the conditional statement in python
+num=input("enter the number:")
+if num.isdigit():  
+    num=int(num)
+    if num%2==0:
+        print("the number is even")
+    else:
+        print("the number is odd")
+          give more examples of the conditional statement in python
+age=int(input("enter the age:"))
+if age<0:
+    print("age cannot be negative")
+elif age==0:
+    print("age cannot be zero")
+else:
+    print("age is valid")   
+            more
+num1=int(input("enter the first number:"))
+num2=int(input("enter the second number:"))     
+if num1>num2:
+    print("the first number is greater than the second number") 
+elif num1<num2:
+    print("the second number is greater than the first number")
+else:
+    # print("both numbers are equal")
+a=(input("enter the number:"))
+if a.isdigit():
+    a=int(a)
+    if a>0:
+        print("the number is positive:", a)
+    else:
+        print("the number is negative:", a)
+else:
+    print("the input is not a valid number")
+
+
+age=(input("enter the age:"))
+if age.isdigit():
+    age=int(age)
+    if age<13:
+        print("the person is a child")
+    elif age>13 and age<=19:
+        print("the person is a teemnager")
+    elif age>19 and age<=60:
+            print("the person is an adult")
+
+username=(input("enter the username:"))
+password=int(input("enter the password:"))
+if username=="muneeb" and password==345:
+    print("""welcome to the 
+          
+          system of the hacker of the wolrld""")
+elif username!="muneeb":
+    print("the username is incorrect")
+else:
+    print("this is the wrong world and you are not allowed to enter in this world")
+
+what is the match case statement in python?
+colour=input("enter the colourof the traffic light:")
+match colour:
+    case "green":
+        print("you can go")
+    case "yellow":
+        print("you need to wait")
+    case"red":
+        print("you have to stop")
+    case _:
+        print("the colour is not in the traffic light indications")
+
+
