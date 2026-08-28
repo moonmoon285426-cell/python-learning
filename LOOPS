@@ -1,0 +1,28 @@
+LEARNING THE WHILE LOOP AND IT PURPOSES
+count = 1
+while(count<5):
+    print("hello world")
+ THIS PRINT THE HELLO WORD FIVE TIME
+
+
+
+PRINTING THE TABLE OF THE ANY NUMBER
+
+i=int(input("enter the number:"))
+num=1
+while (num<=10):
+ num+=1
+    if (num==5):
+  USING THE CONTINUE WORD FOR THE SKIPING THE ITERATION  
+        continue
+    print(i,"*",num,"=",i*num)
+
+
+PRINTING THE NUMBER DIVIDED BY THE 2
+i=0
+while(i<=10):
+    if(i%2==0):
+          print(i)
+    i+=1
+
+
