@@ -74,11 +74,12 @@ for i in range(1,5):
 
              n=int(input("enter the value of the n:"))
 
-            ROUGH EXM
+            ROUGH EXAMPLE
 sum=0
 for i in range(2,n+1,2):
     sum+=i
     print("the work is going in")   
 print("the sumof the ",sum)
-  
-            
+
+
+
