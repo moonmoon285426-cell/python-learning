@@ -61,3 +61,61 @@ while True:
 
     result = calculator(a, b, operator)
     print("Result:", result)
+
+
+
+
+the use of the functions for the calculation of the average , grade, AND RESULT
+
+def calculate_total(math, physics, english):
+    total = math + physics + english
+    return total
+
+
+def calculate_average(total):
+    average = total / 3
+    return average
+
+
+def calculate_grade(average):
+    if average >= 80:
+        return "A"
+    elif average >= 70:
+        return "B"
+    elif average >= 60:
+        return "C"
+    elif average >= 50:
+        return "D"
+    else:
+        return "F"
+
+
+def check_result(average):
+    if average >= 50:
+        return "Pass"
+    else:
+        return "Fail"
+
+
+# Main program
+
+name = input("Enter student name: ")
+
+math = int(input("Enter Math marks: "))
+physics = int(input("Enter Physics marks: "))
+english = int(input("Enter English marks: "))
+
+total = calculate_total(math, physics, english)
+
+average = calculate_average(total)
+
+grade = calculate_grade(average)
+
+result = check_result(average)
+
+print("\n----- STUDENT RESULT -----")
+print("Name:", name)
+print("Total:", total)
+print("Average:", average)
+print("Grade:", grade)
+print("Result:", result)
