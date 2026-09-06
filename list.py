@@ -109,3 +109,27 @@ print("Last product:", products[-1])
 products.sort()
 print("Products after sorting:")
 print(products)
+
+
+
+THE BANK SYSTEM USED FOR THE  DIFFERENT VALUES DIFFERENT VALUES 
+
+balance=[1000,2000,3000,4000,5000]
+print("print all the balances \n",balance)
+
+balance.append(6000)
+print("after adding 6000 \n",balance)
+
+balance.remove(2000)
+print("after removing 2000 \n",balance)
+
+
+print("maximum of the balance\n",max(balance))
+print("minimum of the balance\n",min(balance))
+
+print("total balance is\n",sum(balance))
+
+print("the length of the balance is\n",len(balance))
+
+
+
