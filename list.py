@@ -133,3 +133,163 @@ print("the length of the balance is\n",len(balance))
 
 
 
+# ---------------------------------------
+# PYTHON LIST METHODS - PRACTICE PROGRAM
+# ---------------------------------------
+
+students = ["Ali", "Ahmed", "Muneeb", "Usman", "Hamza"]
+
+print("Original list:")
+print(students)
+
+
+# 1. append()
+# Add one student at the end
+students.append("Bilal")
+
+print("\nAfter append():")
+print(students)
+
+
+# 2. insert()
+# Add a student at a specific index
+students.insert(2, "Hassan")
+
+print("\nAfter insert():")
+print(students)
+
+
+# 3. extend()
+# Add multiple students
+new_students = ["Ayesha", "Sara"]
+
+students.extend(new_students)
+
+print("\nAfter extend():")
+print(students)
+
+
+# 4. remove()
+# Remove a specific student
+students.remove("Usman")
+
+print("\nAfter remove():")
+print(students)
+
+
+# 5. pop()
+# Remove the last student
+removed_student = students.pop()
+
+print("\nStudent removed using pop():")
+print(removed_student)
+
+print("List after pop():")
+print(students)
+
+
+# 6. pop(index)
+# Remove student at a specific index
+removed_student = students.pop(2)
+
+print("\nStudent removed from index 2:")
+print(removed_student)
+
+print("List after pop(2):")
+print(students)
+
+
+# 7. index()
+# Find the index of a student
+position = students.index("Muneeb")
+
+print("\nIndex of Muneeb:")
+print(position)
+
+
+# 8. count()
+# Count how many times a student appears
+students.append("Ali")
+students.append("Ali")
+
+print("\nList after adding Ali twice:")
+print(students)
+
+print("Number of times Ali appears:")
+print(students.count("Ali"))
+
+
+# 9. sort()
+# Sort students alphabetically
+students.sort()
+
+print("\nAfter sort():")
+print(students)
+
+
+# 10. reverse()
+# Reverse the list
+students.reverse()
+
+print("\nAfter reverse():")
+print(students)
+
+
+# 11. copy()
+# Create a copy of the list
+students_copy = students.copy()
+
+print("\nCopied list:")
+print(students_copy)
+
+
+# 12. clear()
+# Remove everything from the copied list
+students_copy.clear()
+
+print("\nAfter clear():")
+print(students_copy)
+
+print("\nOriginal list is still:")
+print(students)
+
+
+---------------------------------------
+OTHER USEFUL LIST OPERATIONS
+---------------------------------------
+
+len()
+print("\nNumber of students:")
+print(len(students))
+
+
+Check if a student exists
+if "Muneeb" in students:
+    print("\nMuneeb is present")
+
+
+Check if a student does NOT exist
+if "Zain" not in students:
+    print("Zain is not in the list")
+
+
+Indexing
+print("\nFirst student:")
+print(students[0])
+
+print("Last student:")
+print(students[-1])
+
+
+Slicing
+print("\nFirst three students:")
+print(students[0:3])
+
+
+Loop through the list
+print("\nAll students:")
+
+for student in students:
+    print(student)
+
+
